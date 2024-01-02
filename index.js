@@ -16,7 +16,7 @@ try {
     return res.status(500).json({ error });
   }
 });
-app.post("/", async (req, res) => {
+app.post("/email-check", async (req, res) => {
   console.log("running post");
   try {
     console.log("running valid");
